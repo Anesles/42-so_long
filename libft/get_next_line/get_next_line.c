@@ -6,7 +6,7 @@
 /*   By: brumarti <brumarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/11 11:54:26 by brumarti          #+#    #+#             */
-/*   Updated: 2022/12/20 17:26:48 by brumarti         ###   ########.fr       */
+/*   Updated: 2022/12/20 19:43:56 by brumarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,7 +91,7 @@ char	*get_next_line(int fd)
 	if (fd < 0 || fd > 4095 || BUFFER_SIZE < 0)
 		return (NULL);
 	line = NULL;
-	if ((int)ft_strchr(buf[fd], '\n') == -1)
+	if ((int)ft_strchrr(buf[fd], '\n') == -1)
 	{
 		old_len = ft_strlen(buf[fd]);
 		buf[fd] = expand_buf(buf[fd], fd);
@@ -100,8 +100,8 @@ char	*get_next_line(int fd)
 	}
 	if (!buf[fd])
 		return (NULL);
-	if (!line && (int)ft_strchr(buf[fd], '\n') != -1)
-		line = ft_substr(buf[fd], 0, ft_strchr(buf[fd], '\n') + 1);
+	if (!line && (int)ft_strchrr(buf[fd], '\n') != -1)
+		line = ft_substr(buf[fd], 0, ft_strchrr(buf[fd], '\n') + 1);
 	if (line)
 	{
 		buf[fd] = new_line(buf[fd], line);

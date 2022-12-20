@@ -6,7 +6,7 @@
 /*   By: brumarti <brumarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/11 11:58:49 by brumarti          #+#    #+#             */
-/*   Updated: 2022/11/25 16:00:22 by brumarti         ###   ########.fr       */
+/*   Updated: 2022/12/20 19:41:38 by brumarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 #  define BUFFER_SIZE 42
 # endif
 # include <stdlib.h>
+# include "../libft.h"
 
 char	*get_next_line(int fd);
 size_t	ft_strchrr(const char *s, int c);
