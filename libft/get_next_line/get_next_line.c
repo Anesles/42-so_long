@@ -6,7 +6,7 @@
 /*   By: brumarti <brumarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/11 11:54:26 by brumarti          #+#    #+#             */
-/*   Updated: 2022/12/20 19:47:47 by brumarti         ###   ########.fr       */
+/*   Updated: 2022/12/20 19:52:19 by brumarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,7 @@ char	*expand_buf(char *buf, int fd)
 	}
 	if (!buf)
 		return (aux);
-	new_len = ft_strlen(aux) + ft_strlen(buf);
+	new_len = ft_strlenn(aux) + ft_strlenn(buf);
 	new_buf = malloc(new_len + 1);
 	if (!new_buf)
 		return (NULL);
@@ -67,14 +67,14 @@ char	*new_line(char *buf, char *line)
 
 	if (!buf || !line)
 		return (buf);
-	if (ft_strlen(buf) == ft_strlen(line))
+	if (ft_strlenn(buf) == ft_strlenn(line))
 	{
 		free(buf);
 		return (NULL);
 	}
 	index = 0;
-	index += ft_strlen(line);
-	new_len = ft_strlen(buf) - ft_strlen(line);
+	index += ft_strlenn(line);
+	new_len = ft_strlenn(buf) - ft_strlenn(line);
 	new_buf = ft_substr(buf, index, new_len + 1);
 	if (!new_buf)
 		return (NULL);
@@ -93,10 +93,10 @@ char	*get_next_line(int fd)
 	line = NULL;
 	if ((int)ft_strchrr(buf[fd], '\n') == -1)
 	{
-		old_len = ft_strlen(buf[fd]);
+		old_len = ft_strlenn(buf[fd]);
 		buf[fd] = expand_buf(buf[fd], fd);
-		if (old_len == ft_strlen(buf[fd]))
-			line = ft_substr(buf[fd], 0, ft_strlen(buf[fd]));
+		if (old_len == ft_strlenn(buf[fd]))
+			line = ft_substr(buf[fd], 0, ft_strlenn(buf[fd]));
 	}
 	if (!buf[fd])
 		return (NULL);
