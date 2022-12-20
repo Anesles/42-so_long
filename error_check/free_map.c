@@ -6,11 +6,11 @@
 /*   By: brumarti <brumarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 15:14:58 by brumarti          #+#    #+#             */
-/*   Updated: 2022/11/30 15:13:59 by brumarti         ###   ########.fr       */
+/*   Updated: 2022/12/20 19:33:19 by brumarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft/libft.h"
+#include "../so_long.h"
 
 void	free_map(t_map map)
 {

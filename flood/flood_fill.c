@@ -6,11 +6,11 @@
 /*   By: brumarti <brumarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/25 21:44:57 by brumarti          #+#    #+#             */
-/*   Updated: 2022/11/30 17:33:02 by brumarti         ###   ########.fr       */
+/*   Updated: 2022/12/20 19:33:07 by brumarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft/libft.h"
+#include "../so_long.h"
 
 /*
 static void	print_map(char **map, int max_l, int x, int y)

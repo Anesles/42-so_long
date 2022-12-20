@@ -6,11 +6,11 @@
 /*   By: brumarti <brumarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/02 01:03:01 by brumarti          #+#    #+#             */
-/*   Updated: 2022/12/02 01:03:06 by brumarti         ###   ########.fr       */
+/*   Updated: 2022/12/20 19:32:37 by brumarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft/libft.h"
+#include "so_long.h"
 
 static int	get_lines(int fd)
 {

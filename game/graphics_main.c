@@ -6,11 +6,11 @@
 /*   By: brumarti <brumarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/29 21:18:14 by brumarti          #+#    #+#             */
-/*   Updated: 2022/12/05 15:20:03 by brumarti         ###   ########.fr       */
+/*   Updated: 2022/12/20 19:33:01 by brumarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft/libft.h"
+#include "../so_long.h"
 
 static void	put_img(t_vars vars, char c, int i, int j)
 {

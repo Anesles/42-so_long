@@ -6,11 +6,11 @@
 /*   By: brumarti <brumarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/25 16:20:10 by brumarti          #+#    #+#             */
-/*   Updated: 2022/11/25 18:03:41 by brumarti         ###   ########.fr       */
+/*   Updated: 2022/12/20 19:33:24 by brumarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft/libft.h"
+#include "../so_long.h"
 
 void	send_error(char	*message)
 {

@@ -6,11 +6,11 @@
 /*   By: brumarti <brumarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/05 14:28:32 by brumarti          #+#    #+#             */
-/*   Updated: 2022/12/05 15:25:05 by brumarti         ###   ########.fr       */
+/*   Updated: 2022/12/20 19:32:53 by brumarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft/libft.h"
+#include "../so_long.h"
 
 static int	key_hook(int keycode, t_vars *vars)
 {

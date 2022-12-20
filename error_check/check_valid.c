@@ -6,11 +6,11 @@
 /*   By: brumarti <brumarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/25 16:29:32 by brumarti          #+#    #+#             */
-/*   Updated: 2022/11/30 14:50:24 by brumarti         ###   ########.fr       */
+/*   Updated: 2022/12/20 19:33:16 by brumarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft/libft.h"
+#include "../so_long.h"
 
 static int	check_rectangle(t_map map, int line_len)
 {
