@@ -6,11 +6,11 @@
 /*   By: brumarti <brumarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/05 14:27:55 by brumarti          #+#    #+#             */
-/*   Updated: 2022/12/14 16:12:02 by brumarti         ###   ########.fr       */
+/*   Updated: 2022/12/20 19:34:06 by brumarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft/libft.h"
+#include "../so_long.h"
 
 int	animations(t_vars *vars)
 {
